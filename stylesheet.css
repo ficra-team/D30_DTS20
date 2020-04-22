@@ -1,3 +1,8 @@
+/* Terapkan box-sizing: border-box; ke semua element */
+*{
+  box-sizing:border-box;
+}
+
 body {
   font-family: "Avenir Next";
 }
@@ -7,6 +12,8 @@ li {
 }
 
 .header {
+  /* Ubah width ke 100% */
+  width: 100%;
   background-color: #26d0c9;
   color: rgb(255, 255, 255);
   height: 90px;
