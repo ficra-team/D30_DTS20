@@ -125,17 +125,40 @@ input,textarea{
   color:#889eab;
 }
 
-.footer {
-  background-color: #2f5167;
+
+
+
+
+
+/*Ini Awal Bagian Footer*/
+footer {
+  background-color: rgba(0,0,0,0.9);
   color: #fff;
-  height: 120px;
-  padding: 40px;
+  height: 200px;
+  padding:40px;
+  box-shadow: 0px -5px 10px -5px red;
 }
 
-.footer-logo {
+.footerLeft{
   float: left;
-  font-size: 32px;
 }
+
+footer img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  opacity: 0.8;
+  margin-top:10px;
+  box-shadow: -1px -1px 10px -2px red;
+}
+
+footer img:hover{
+  box-shadow: -1px -1px 15px 5px red;
+  transition: 2s;
+}
+
+
+
 
 .footer-list {
   float: right;
@@ -144,3 +167,4 @@ input,textarea{
 .footer-list li {
   padding-bottom: 20px;
 }
+/*Ini Akhir bagian Footer*/
