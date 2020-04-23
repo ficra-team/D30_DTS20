@@ -132,15 +132,32 @@ input,textarea{
 
 /*Ini Awal Bagian Footer*/
 footer {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,1);
   color: #fff;
-  height: 200px;
-  padding:40px;
+  height: 250px;
+  padding:60px;
   box-shadow: 0px -5px 10px -5px red;
 }
 
-.footerLeft{
+.footer-left{
   float: left;
+}
+.footer-right{
+  float:right;
+  color:#fff;
+  padding: 10px;
+  line-height: 20px;
+}
+.footer-right .container{
+  float: right;
+}
+.specialLi{
+  font-size: 30px;
+  color: #fafafa;
+}
+.normalLi{
+  font-size: 25px;
+  color:#fafaf0;
 }
 
 footer img{
@@ -159,12 +176,105 @@ footer img:hover{
 
 
 
-
-.footer-list {
-  float: right;
+.sosialMedia ul{
+  position: relative;
+  display: flex;
+  transform-style: preserve-3d;
+  transform: rotate(-2deg) skew(10deg);
+  left: 400px;
+  top: 50px;
 }
 
-.footer-list li {
-  padding-bottom: 20px;
+.sosialMedia ul li{
+  position: relative;
+  list-style: none;
+  width: 30px;
+  height: 30px;
 }
+ 
+.sosialMedia li:before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: #2a2a2a;
+  transform-origin: top;
+  transform: skewX(-41deg);
+}
+
+.sosialMedia ul li:after{
+  content: '';
+  position: absolute;
+  top:0;
+  left:-9px;
+  width: 9px;
+  height: 100%;
+  background: #2a2a2a;
+  transform-origin: right;
+  transform:skewY(-49deg);
+}
+
+.sosialMedia ul li span{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color:rgba(255,255,255,0.2);
+  font-style: 30px !important;
+  transition: 0.2s;
+}
+
+.sosialMedia ul li:hover span{
+  z-index: 1000;
+  transition: 0.5s;
+  color:#fff;
+  box-shadow: -1px,1px,1px,rgba(0,0,0,05);
+}
+
+.sosialMedia ul li:hover span:nth-child(5){
+  transform: translate(40px,-40px);
+  opacity: 1;
+}
+
+.sosialMedia ul li:hover span:nth-child(4){
+  transform: translate(30px,-30px);
+  opacity: 0.8;
+}
+
+.sosialMedia ul li:hover span:nth-child(3){
+  transform: translate(20px,-20px);
+  opacity: 0.6;
+}
+
+.sosialMedia ul li:hover span:nth-child(2){
+  transform: translate(10px,-10px);
+  opacity: 0.4;
+}
+.sosialMedia ul li:hover span:nth-child(1){
+  transform: translate(0px,0px);
+  opacity: 0.2;
+}
+.sosialMedia ul li:nth-child(1):hover span{
+  background: #3b5999;
+}
+.sosialMedia ul li:nth-child(2):hover span{
+  background: #55acee;
+}
+.sosialMedia ul li:nth-child(3):hover span{
+  background: #25d366;
+}
+.sosialMedia ul li:nth-child(4):hover span{
+  background: gray;
+}
+.sosialMedia ul li:nth-child(5):hover span{
+  background: #e4405f;
+}
+
 /*Ini Akhir bagian Footer*/
