@@ -36,6 +36,8 @@ li {
   padding: 33px 20px;
 }
 
+
+/*Ini Awal Bagian Utama*/
 .copy-container{
   padding: 180px 0 100px 0;
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
@@ -79,9 +81,11 @@ li {
   text-align: center;
   margin-top: 10px;
   color: black;
-
 }
+/*Ini Awal Bagian Utama*/
 
+
+/*Ini Awal Bagian Extra1*/
 .contents {
  /* height: 500px;*/
   margin-top: 100px;
@@ -104,30 +108,14 @@ li {
   font-size: 24px;
   margin-top: 30px;
 }
+/*Ini Akhir Bagian Extra1*/
 
-.contact-form {
-  padding-top: 100px;
+
+/*Ini Awal Bagian Extra2*/
+.extra2 {
+
 }
-
-/* Tambahkan CSS untuk tags <input> dan <textarea> */
-input,textarea{
-  width:400px;
-  margin-top:10px;
-  margin-bottom:30px;
-  padding:20px;
-  font-size:18px;
-  border:1px solid #dee7ec;
-}
-
-/* Tambahkan CSS untuk contact-submit */
-.contact-submit{
-  background:#dee7ec;
-  color:#889eab;
-}
-
-
-
-
+/*Ini Akhir Bagian Extra2*/
 
 
 /*Ini Awal Bagian Footer*/
@@ -191,7 +179,7 @@ footer img:hover{
   width: 30px;
   height: 30px;
 }
- 
+
 .sosialMedia li:before{
   content: '';
   position: absolute;
