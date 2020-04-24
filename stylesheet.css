@@ -188,12 +188,12 @@ footer a{
 
 
 .sosialMedia ul{
-  position: relative;
+  position: static;
   display: flex;
   transform-style: preserve-3d;
   transform: rotate(-2deg) skew(10deg);
-  left: 400px;
-  top: 50px;
+  margin-top: 40px;
+  padding-left: 360px;
 }
 
 .sosialMedia ul li{
