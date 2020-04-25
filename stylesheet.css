@@ -40,7 +40,7 @@ li {
 /*Ini Awal Bagian Utama*/
 .copy-container{
   padding: 200px 0 150px 0;
-  background-image: url(Images/gambar1.png);
+  background-image: url(Images/gambar1.jpeg);
   background-size: cover;
   color:#26d0c9;
   text-align: center;
@@ -49,19 +49,79 @@ li {
 
 .copy-container h1 {
   opacity: 0.7;
+  font-family:fantasy;
   font-size: 85px;
+  font-weight: bold;
   letter-spacing: 5px;
   margin-top: 10px;
 }
 
 .copy-container h2 {
-  opacity: 0.7;
   font-size: 75px;
-  color:#804aff;
+  letter-spacing:8px;
 }
 
 .copy-container span {
-  color: #ff4a4a;
+  font-family:Impact;
+  color:#313131;
+  -webkit-animation:colorchange 20s infinite alternate;
+  
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
 }
 
 .profile-item {
