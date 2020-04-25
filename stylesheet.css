@@ -39,24 +39,25 @@ li {
 
 /*Ini Awal Bagian Utama*/
 .copy-container{
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  padding: 200px 0 150px 0;
+  background-image: url(Images/gambar1.jpeg);
   background-size: cover;
-  color: white;
+  color:#26d0c9;
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .copy-container h1 {
   opacity: 0.7;
   font-size: 85px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .copy-container h2 {
- /* opacity: 0.7; */
+  opacity: 0.7;
   font-size: 75px;
-  color:#ff4a4a;
+  color:#804aff;
 }
 
 .copy-container span {
@@ -75,12 +76,27 @@ li {
   border:10px solid white;
 }
 
+.profile-item img {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  }
+  
+  .profile-item img:hover {
+  -webkit-transform: scale(1.2) rotate(1080deg);
+  -moz-transform: scale(1.2) rotate(1080deg);
+  -o-transform: scale(1.2) rotate(1080deg);
+  -ms-transform: scale(1.2) rotate(1080deg);
+  transform: scale(1.2) rotate(1080deg);
+  }
+
 .profile-item p {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  margin-top: 10px;
-  color: black;
+  margin-top: 7px;
+  color:white;
 }
 /*Ini Awal Bagian Utama*/
 
