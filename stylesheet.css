@@ -17,27 +17,57 @@ li {
   list-style: none;
 }
 
-.header {
+/ini bagian awal Header/
+header {
   /* Ubah width ke 100% */
-  max-width: 1170px;
+  position: fixed;
   width: 100%;
-  background-color: #40E0D0;
+  background-color: rgba(0,0,0,0.9);
   color: rgb(255, 255, 255);
-  height: 90px;
+  height: 80px;
+  z-index: 30;
+  top:0;
 }
 
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  opacity: 0.8;
+  box-shadow: -1px -1px 10px -2px red;
+  margin: 15px 40px;
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+}
+.header-right ul{
+  float: right;
+  margin: 20px 10px;
 }
 
-.header-list li {
-  float: left;
-  padding: 33px 20px;
+.header-right ul li {
+  padding: 0px 20px;
+  float: right;
+  margin: 1px;
+  
+}
+.header-right ul li a{
+  color:#eaeaea;
+  font-size: 30px;
+  text-decoration: none;
+}
+.navbar-icon{
+  font-size: 40px;
+  color: #eaeaea;
+  margin:15px 0px;
+  margin-right: 30px;
+  display: none;
 }
 
-
+/Ini Bagian Akhir Header/
 /*Ini Awal Bagian Utama*/
 .copy-container{
   padding: 200px 0 150px 0;
