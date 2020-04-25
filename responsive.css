@@ -2,20 +2,66 @@
 /* Tambahkan breakpoint max-width: 1000px */
 @media (max-width:1000px) {
     /* Tambahkan CSS untuk lesson */
+   .main{
+     width: 100%;
+   }
+   
     .contents{
       width:50%;
       margin-bottom:50px;
     }
-  }
+
+    .copy-container{
+      padding: 100px 0 75px 0;
+    }  
+    .copy-container h1{
+      font-size:45px;
+    }
+    .copy-container h2{
+      font-size:35px;
+    }
+
+    .profile-item img{
+      width:90px;
+      height:90px;
+      border-radius:50%;
+      border:8px solid white;
+    }
+    .profile-item p{
+      font-size:18px;
+    }
+    
+}
 
   /* Untuk Smartphones */
   /* Tambahkan breakpoint max-width: 670px */
 @media (max-width:670px) {
     /* Ubah width milik lesson ke 100% */
-    .contents{
-      width:100%;
-    }
+    
     .footer{
         text-align:center;
+    }
+
+    .copy-container h1{
+        font-size:25px;
+        line-height:36px;
+      }
+      .copy-container h2{
+        font-size:15px;
+      }   
+     .copy-container p{
+         font-size:12px;
+         line-height:20px;
+       }  
+
+      .profile-item img{
+        width:60px;
+        height:60px;
+        border-radius:25%;
+        border:5px solid white;
+      }
+      
+      .profile-item p{
+        font-size:12px;
       }
   }
