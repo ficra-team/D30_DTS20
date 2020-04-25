@@ -261,14 +261,29 @@ header img {
   border-radius: 7px;
 }
 
-.contact-submit{
-  width: 88%;
-  border-radius: 5px;
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.send {
   font-size: 20px;
   font-weight: bold;
-  background-color: rgba(0,0,0,0.5);
-  border-color: rgba(0,0,0,0.1);
-  color: #fafafa;
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.send:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
 }
 /*Ini Akhir Bagian Extra2*/
 
@@ -349,7 +364,7 @@ footer a{
   width: 30px;
   height: 30px;
 }
- 
+
 .sosialMedia li:before{
   content: '';
   position: absolute;
