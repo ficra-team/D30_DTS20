@@ -18,65 +18,55 @@ li {
 }
 
 /*ini bagian awal Header*/
-	.menu{
-		background-color: #4169E1;
-		height: 65px;
-		border: none;
-		border-radius: 8px;
-	}
- 
-	.menu ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 10px;
-		overflow: hidden;
-	}
- 
-	.menu > ul > li {
-		float: left;
-	}
- 
-	
-	.menu li a {
-		display: inline-block;
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-	}
- 
-	.menu li a:hover{
-		background-color: #2525ff;
-	}
- 
-	li.dropdown {
-		display: inline-block;
-	}
- 
-	.dropdown:hover .isi-dropdown {
-		display: block;
-	}
- 
-	.isi-dropdown a:hover {
-		color: #fff !important;
-	}
- 
-	.isi-dropdown {
-		position: absolute;
-		display: none;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1;
-		background-color: #f9f9f9;
-	}
- 
-	.isi-dropdown a {
-		color: #3c3c3c !important;
-	}
- 
-	.isi-dropdown a:hover {
-		color: #232323 !important;
-		background: #f3f3f3 !important;
-	}
+header {
+  /* Ubah width ke 100% */
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+  color: rgb(255, 255, 255);
+  height: 80px;
+  z-index: 30;
+  top:0;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  opacity: 0.8;
+  box-shadow: -1px -1px 10px -2px red;
+  margin: 15px 40px;
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+}
+.header-right ul{
+  float: right;
+  margin: 20px 10px;
+}
+
+.header-right ul li {
+  padding: 0px 20px;
+  float: right;
+  margin: 1px;
+  
+}
+.header-right ul li a{
+  color:#eaeaea;
+  font-size: 30px;
+  text-decoration: none;
+}
+.navbar-icon{
+  font-size: 40px;
+  color: #eaeaea;
+  margin:15px 0px;
+  margin-right: 30px;
+  display: none;
+}
+
 /*Ini Bagian Akhir Header*/
 
 /*Ini Awal Bagian Utama*/
