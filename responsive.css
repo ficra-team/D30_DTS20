@@ -1,16 +1,11 @@
 /* Untuk Tablets */
 /* Tambahkan breakpoint max-width: 1000px */
 @media (max-width:1000px) {
-   /*awal bagian utama*/
+   
    .main{
      width: 100%;
    }
-   
-    .contents{
-      width:100%;
-      margin-bottom:50px;
-    }
-
+   /*awal bagian utama*/
     .copy-container{
       width: 100%;    }  
     .copy-container h1{
@@ -31,6 +26,16 @@
     }
     /*akhir bagian utama*/
 
+    /*awal bagian extra1*/
+    .contents{
+      width:100%;
+      margin-bottom:50px;
+    }
+    .lesson {
+      width: 50%;
+    }
+    /*akhir bagian extra2*/
+
     /*awal bagian footer*/
     footer{
       height: 400px;
@@ -44,6 +49,10 @@
   /* Untuk Smartphones */
   /* Tambahkan breakpoint max-width: 670px */
 @media (max-width:670px) {
+
+    hr{
+      width: 50%;
+    }
     /*Awal header*/
     .navbar-icon{
       display: block;
@@ -54,32 +63,53 @@
     }
     /*akhir header*/
 
-    
-    
     /*awal bagian utama*/
     .copy-container h1{
         font-size:25px;
         line-height:36px;
       }
-      .copy-container h2{
+    .copy-container h2{
         font-size:15px;
       }   
-     .copy-container p{
+    .copy-container p{
          font-size:12px;
          line-height:20px;
        }  
 
-      .profile-item img{
+    .profile-item img{
         width:60px;
         height:60px;
         border-radius:25%;
         border:5px solid white;
       }
       
-      .profile-item p{
+    .profile-item p{
         font-size:12px;
       }
     /*akhir bagian utama*/
+
+    /*awal bagian extra1*/
+    .lesson {
+      width: 100%;
+    }
+    .lesson-icon p{
+      margin-left: 0;
+    }
+    .text-contents{
+      display: block;      
+    }
+
+    /*akhir bagian extra1*/
+
+    /*awal bagian extra 2*/
+    .contain-form{
+      width: 100%;
+    }
+    .btn {
+      padding: 10px 30px;
+      border-radius: 5px;
+    }
+    /*akhir bagian extra 2*/
 
     /*awal bagian footer*/
     footer{

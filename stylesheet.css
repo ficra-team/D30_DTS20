@@ -10,10 +10,20 @@ body {
 
 /*ini untuk class container*/
 .container {
-  max-width: 1170px;
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto;
+ }
+
+/*ini untuk section-title*/
+.section-title {
+  padding-top: 30px;
+  box-sizing: none;
+  font-size: 35px;
+  margin-bottom: 0;
+  text-align: center;
+}
+hr{
+  width: 400px;
 }
 
 /* Tambahkan CSS untuk clear */
@@ -24,6 +34,7 @@ body {
 li {
   list-style: none;
 }
+
 
 /*ini bagian awal Header*/
 header {
@@ -53,19 +64,41 @@ header img {
 }
 .header-right ul{
   float: right;
-  margin: 20px 10px;
+  margin: 0px 10px;
+  display: block;
 }
 
 .header-right ul li {
-  padding: 0px 20px;
+  display: fixed;
+  margin-right: 5px;
+  margin-top: 13px;
+  padding: 10px 20px;
   float: right;
-  margin: 1px;
+  /*background-color: rgba(255,255,255,0.1);*/
+  border-radius: 5px;
+  
+}
+
+.header-right ul li:hover {
+  display: fixed;
+  margin-right: 5px;
+  margin-top: 13px;
+  padding: 10px 20px;
+  float: right;
+  /*background-color: rgba(255,255,255,0.1);*/
+  border-bottom: 5px solid rgba(255,255,255,0.2);
+  border-radius: 5px;
+  /*transform: translate(3px, 5px);*/
+  transition: 1s;
 
 }
+
+
 .header-right ul li a{
   color:#eaeaea;
   font-size: 30px;
   text-decoration: none;
+
 }
 .navbar-icon{
   font-size: 40px;
@@ -78,8 +111,8 @@ header img {
 
 /*Ini Awal Bagian Utama*/
 .copy-container{
-  padding: 200px 0 150px 0;
-  background-image: url(Images/gambar1.jpg);
+  padding: 200px 0 250px 0;
+  background: url(Images/gambar1.jpg) fixed;
   background-size: cover;
   color:#26d0c9;
   text-align: center;
@@ -182,7 +215,7 @@ header img {
   transition: all 1s ease-in-out;
   }
 
-  .profile-item img:hover {
+.profile-item img:hover {
   -webkit-transform: scale(1.2) rotate(1080deg);
   -moz-transform: scale(1.2) rotate(1080deg);
   -o-transform: scale(1.2) rotate(1080deg);
@@ -200,30 +233,46 @@ header img {
 /*Ini Akhir Bagian Utama*/
 
 
-/*Ini Awal Bagian Extra1*/
+
+/*ini Awal Bagian Extra1*/
+.heading{
+  text-align: center;
+}
 .contents {
  /* height: 500px;*/
-  margin-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  background-color: rgba(234,234,234,0.4);
+  width: 100%;
 }
-
-.section-title {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
-}
-
-.contents-item {
+.lesson {
   float: left;
-  width:25%;
-  margin-right: 40px;
+  width: 25%;
 }
 
-.contents-item p {
-  font-size: 24px;
-  margin-top: 30px;
+.lesson-icon {
+  position: relative;
 }
-/*Ini Akhir Bagian Extra1*/
+
+.lesson-icon p {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+/*ini Akhir bagian  Exstra 1*/
 
 
 /*Ini Awal Bagian Extra2*/
@@ -266,6 +315,7 @@ header img {
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
+  border-radius: 5px;
   color: white;
   display: inline-block;
   opacity: 0.8;
