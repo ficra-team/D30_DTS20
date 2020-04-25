@@ -1,19 +1,18 @@
 /* Untuk Tablets */
 /* Tambahkan breakpoint max-width: 1000px */
 @media (max-width:1000px) {
-    /* Tambahkan CSS untuk lesson */
+   /*awal bagian utama*/
    .main{
      width: 100%;
    }
    
     .contents{
-      width:50%;
+      width:100%;
       margin-bottom:50px;
     }
 
     .copy-container{
-      padding: 100px 0 75px 0;
-    }  
+      width: 100%;    }  
     .copy-container h1{
       font-size:45px;
     }
@@ -30,18 +29,34 @@
     .profile-item p{
       font-size:18px;
     }
+    /*akhir bagian utama*/
+
+    /*awal bagian footer*/
+    footer{
+      height: 400px;
+    }
+    /*akhir bagian footer*/
+
+
     
 }
 
   /* Untuk Smartphones */
   /* Tambahkan breakpoint max-width: 670px */
 @media (max-width:670px) {
-    /* Ubah width milik lesson ke 100% */
-    
-    .footer{
-        text-align:center;
+    /*Awal header*/
+    .navbar-icon{
+      display: block;
+      float: right;
     }
+    .header-right{
+      display: none;
+    }
+    /*akhir header*/
 
+    
+    
+    /*awal bagian utama*/
     .copy-container h1{
         font-size:25px;
         line-height:36px;
@@ -64,4 +79,28 @@
       .profile-item p{
         font-size:12px;
       }
+    /*akhir bagian utama*/
+
+    /*awal bagian footer*/
+    footer{
+      height: 700px;
+      padding: 30px 10px;
+    }
+    footer img,p{
+      margin-left: 30px;
+    }
+    .footer-right{
+      display:inline-block;
+    }
+    .specialLi{
+    font-size: 35px;
+    color: #fafafa;
+    line-height: 30px;
+    }
+   .normalLi{
+    font-size: 20px;
+    color:#fafaf0;
+    line-height: 30px;
+    } 
+    /*akhir bagian footer*/
   }
