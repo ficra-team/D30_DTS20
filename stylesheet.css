@@ -8,6 +8,14 @@ body {
   font-family: "Avenir Next";
 }
 
+/*ini untuk class container*/
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* Tambahkan CSS untuk clear */
 .clear{
   clear:left;
@@ -66,7 +74,6 @@ header img {
   margin-right: 30px;
   display: none;
 }
-
 /*Ini Bagian Akhir Header*/
 
 /*Ini Awal Bagian Utama*/
@@ -190,7 +197,7 @@ header img {
   margin-top: 7px;
   color:white;
 }
-/*Ini Awal Bagian Utama*/
+/*Ini Akhir Bagian Utama*/
 
 
 /*Ini Awal Bagian Extra1*/
@@ -228,11 +235,14 @@ header img {
 
 /*Ini Awal Bagian Footer*/
 footer {
+  position: relative;
+  width: 100%;
   background-color: rgba(0,0,0,1);
   color: #fff;
   height: 250px;
   padding:60px;
   box-shadow: 0px -5px 10px -5px red;
+  bottom: 0;
 }
 
 .footer-left{
@@ -240,19 +250,26 @@ footer {
 }
 .footer-right{
   float:right;
+  display: flex;
   color:#fff;
-  padding: 10px;
   line-height: 20px;
+  background-color: rgba(56, 56, 56,0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
 }
-.footer-right .container{
-  float: right;
+.footer-container-sosmed{
+  display: block;
+  }
+.footer-container{
+  display: inline-flex;
 }
 .specialLi{
-  font-size: 30px;
+  font-size: 20px;
   color: #fafafa;
 }
 .normalLi{
-  font-size: 25px;
+  font-size: 10px;
   color:#fafaf0;
 }
 
@@ -271,9 +288,8 @@ footer img:hover{
 
 footer p{
   color:#fff;
-  width:100px;
-  line-height: 10px;
-  font-size: 20px;
+  width:300px;
+  font-size: 15px;
   margin-top: 2px
 }
 footer a{
@@ -281,15 +297,10 @@ footer a{
   color:#fafafa;
 }
 
-
-
 .sosialMedia ul{
-  position: static;
   display: flex;
   transform-style: preserve-3d;
   transform: rotate(-2deg) skew(10deg);
-  margin-top: 40px;
-  padding-left: 360px;
 }
 
 .sosialMedia ul li{
@@ -298,7 +309,7 @@ footer a{
   width: 30px;
   height: 30px;
 }
-
+ 
 .sosialMedia li:before{
   content: '';
   position: absolute;
