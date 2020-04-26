@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="responsive.css">
     <!-- link dibawah adalah fontawesome untuk icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
   </head>
   <body>
 
@@ -22,9 +23,9 @@
         </a>
       <div class="header-right">
         <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Home</a></li>
+          <li><a href="#contact" class="page-scroll">Contact</a></li>
+          <li><a href="#about" class="page-scroll">About</a></li>
+          <li><a href="#home" class="page-scroll">Home</a></li>
         </ul>
       </div>
     </header>
@@ -33,7 +34,7 @@
 
     <!-- Ini awal Bagian Utama -->
     <div class="main">
-        <div class="copy-container">
+      <div class="copy-container" id="home">
           <h1>HTML <span>&</span> CSS Team Project - KELAS-PRO-D</h1>
           <h2><span>TEAM D30-DTS20</span></h2>
         <div class="profile-item">
@@ -61,7 +62,7 @@
 
 
       <!--Ini awal Bagian Extra1 -->
-      <div class="contents">
+      <div class="contents"  id="about">
         <div class="container">
         <h3 class="section-title">We Are Skills</h3>
         <hr>
@@ -104,7 +105,7 @@
       <!--Ini akhir Bagian Extra1 -->
 
       <!-- ini awal Bagian Extra 2 -->
-      <div class="contact-form">
+      <div class="contact-form" id="contact">
         <div class="container">
           <h3 class="section-title">Hubungi kami</h3>
           <hr>
@@ -216,6 +217,10 @@
       </div>
     </footer>
     <!-- Ini akhir Bagian Footer -->
-
+    <!-- ini adalah Jquery lokal-->
+  <script src="Js/jquery-3.4.1.min.js"></script>
+  <script src="Js/jquery.easing.1.3.js"></script>
+  <!-- ini script selektor ke folder js -->
+  <script src="Js/script.js"></script>
   </body>
 </html>
