@@ -242,11 +242,20 @@ header img:hover{
 .heading{
   text-align: center;
 }
+
+.heading h2 {
+	padding-bottom:10px;
+	font-size:30px;
+}
+
+.section-title{
+	font-size:50px;
+}
 .contents {
  /* height: 500px;*/
   padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: #f7f7f7;
   text-align: center;
   background-color: rgba(234,234,234,0.4);
@@ -254,18 +263,31 @@ header img:hover{
 }
 .lesson {
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 .lesson-icon {
   position: relative;
 }
 
+.lesson-icon img {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #e3e1cf;
+}
+
 .lesson-icon p {
   position: absolute;
-  top: 35%;
+  top: 55%;
   width: 100%;
   color: white;
+  text-align: center;
+}
+
+.lesson-icon h3 {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  color: #e3e1cf;
   text-align: center;
 }
 
@@ -273,8 +295,10 @@ header img:hover{
   width: 80%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+  font-size: 18px;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #3e9e8e;
+  text-align: justify;
 }
 /*ini Akhir bagian  Exstra 1*/
 
