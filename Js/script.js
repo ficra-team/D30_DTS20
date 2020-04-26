@@ -27,7 +27,7 @@ $('.page-scroll').on('click', function(e){
 $(window).scroll(function(){
 	var wScroll=$(this).scrollTop();
 	$('.copy-container h1').css({
-		'transform':'translate(0px,'+wScroll/5.5+'%)'
+		'transform':'translate(0px,'+wScroll/4.5+'%)'
 	});
 	$('.copy-container h2').css({
 		'transform':'translate(0px,'+wScroll/6+'%)'
