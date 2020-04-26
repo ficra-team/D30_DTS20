@@ -19,8 +19,17 @@ $('.page-scroll').on('click', function(e){
 	}, 1000,'easeInOutExpo'); //ada dua effek swing dan linier dari jquery..kalau bosan kita bisa pake transisi yang lain buka aa website query easig link: gsgd.com
 	e.preventDefault();
 });
-// ini akhir page scroll
 
+// ini akhir page scroll
+// $(window).load(function(){
+
+// });
+$(document).ready(function(){
+	$(".slide-toggle").click(function(){
+		$(".header-right").slideToggle("slow");
+	});
+});
+// ini awal untuk
 
 
 // ini awal windows scroll

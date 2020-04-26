@@ -57,10 +57,41 @@
     .navbar-icon{
       display: block;
       float: right;
+      background-color: transparent;
+      border-color: transparent;  
+      font-size: 40px;
+      color: #eaeaea;
+      margin:15px 0px;
+      margin-right: 30px;
+      border-radius: 3px;
     }
+
+    .fa-bars{
+      transition:2s;
+    }
+    .fa-bars:hover{
+    color:rgba(255,0,0,0.8);
+    transition:2s;
+    }
+
     .header-right{
       display: none;
+      height: 250px;
+      width: 80%;
+      background-color: rgba(0,0,0,0.8);
+      margin-right: 10%;
+      margin-left: 10%;
+      border-radius: 5px;
     }
+    .header-right ul{
+      display: flex;
+      flex-direction: column-reverse;
+      padding-right: 50%;
+
+    }
+    /*.header-right ul li{
+      flex-wrap: wrap;
+    }*/
     /*akhir header*/
 
     /*awal bagian utama*/
