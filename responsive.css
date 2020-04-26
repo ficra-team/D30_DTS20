@@ -70,8 +70,8 @@
       transition:2s;
     }
     .fa-bars:hover{
-    color:rgba(255,0,0,0.8);
-    transition:2s;
+      color:rgba(255,0,0,0.8);
+      transition:2s;
     }
 
     .header-right{
@@ -87,11 +87,17 @@
       display: flex;
       flex-direction: column-reverse;
       padding-right: 50%;
+      padding-top: 30px;
 
     }
-    /*.header-right ul li{
-      flex-wrap: wrap;
-    }*/
+    .header-right ul li{
+      margin-right: 5px;
+      margin-top: 0px;
+      padding: 5px 20px;
+    }
+    .header-right ul li:hover{
+      border-bottom: 2px solid rgba(255,255,255,0.2);
+    }
     /*akhir header*/
 
     /*awal bagian utama*/
